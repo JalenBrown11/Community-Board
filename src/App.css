@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+html, body {
+  /* Set Html, Body properties */
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  /* Color text */
+  color: white;
+  /* Disable select clicks */
+  user-select: none;
+  /* Font settings */
+  font-family: Segoe UI;
+  font-style: normal;
+  line-height: normal;
+  /* Prevent Clipping */
+  overflow-x: hidden;
+}
+
+#fullpage-div {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+header {
+  /* Set Header properties */
+  height: 128px;
+  width: 100%;
+  /* Flexbox */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* Header bg */
+  background-color: rgba(0, 0, 0, 70%);
+  /* Header Font Setting */
+  font-family: 'Pacifico';
+}
+
+header h1 {
+  /* Position header tag content*/
+  margin: 0 70px;
+}
+
+main {
+  /* Position main tag content */
+  padding: 2rem 70px 2rem 70px;
+  /* Flexbox */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background-color: white;
+}
+
+.card {
+  /* Set card properties */
+  height: 480px;
+  width: 348px; 
+  outline: none;
+  border: none;
+  border-radius: 32px;
+  /* Color text and card bg */
+  color: white;
+  background-color: #1c1c1c;
+  /* Flexbox */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  /* Prevent clipping */
+  overflow: auto;
+}
+
+.card-img {
+  /* Set image properties */
+  height: 264px;
+  width: 100%;
+}
+
+.card-information {
+  /* Set card infobox properties */
+  min-height: 125px;
+  width: 100%;
+  padding: 16px 0;
+  /* Flexbox */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.card-information > * {
+  /* Position all card info content */
+  padding: 0;
+  margin: auto auto;
+}
+
+.card-information h2 {
+  padding: 0 1rem;
+  /* Set font */
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.card-information p {
+  /* Set font */
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.card-btn {
+  /* Set card btn properties */
+  margin: 8px 0 24px 0;
+  height: 42px;
+  width: 204px;
+  outline: none;
+  border: none;
+  border-radius: 32px;
+  /* Flexbox */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Color btn and btn bg */
+  color: black;
+  background-color: white;
+}
+
+.card-btn:hover {
+  /* Change btn on hover */
+  color: white;
+  background-color: black;
+}
