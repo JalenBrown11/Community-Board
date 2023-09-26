@@ -2,20 +2,20 @@
 
 Submitted by: Jalen Brown
 
-This web app: **A community board project centered around food lovers in the D.C. Metropolitan area. The board will demonstate various web design features such as cards, navbar, links, card display information, etc.**
+This web app: A community board project centered around food lovers in the D.C. Metropolitan area. The board will demonstate various web design features such as cards, navbar, links, card display information, etc.
 
-Time spent: **X** hours spent in total
+Time spent: 5 hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ ] **There is a unique theme for events or resources relevant to a specific community**
-- [ ] **At least 10 unique resources or events are displayed in a responsive card format**
+- [x] **There is a unique theme for events or resources relevant to a specific community**
+- [x] **At least 10 unique resources or events are displayed in a responsive card format**
 
 The following **optional** features are implemented:
 
-- [ ] Buttons or links to a related resources are on each card component
+- [x] Buttons or links to a related resources are on each card component
 - [ ] The site is responsive for both desktop and mobile formats
 
 The following **additional** features are implemented:
@@ -26,10 +26,11 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<a href='https://imgur.com/a/2sEsl8P'>Video Walkthrough</a>
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with ScreenToGif
+
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -37,7 +38,7 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+I faced challenges making the community board responsive on both desktop and mobile (didnt finish the mobile format). Other challenges I faced were in getting good resolution images and styling the webpage to fit what I imagined.
 
 ## License
 
