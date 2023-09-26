@@ -1,6 +1,8 @@
 import "./App.css";
 import Card from "./components/Card";
-import image from "./assets/test_images.png";
+import image1 from "./assets/restaurants/commissary.jpg";
+import image2 from "./assets/restaurants/reren_lamen_bar.jpg";
+
 
 function App() {
   return (
@@ -10,14 +12,14 @@ function App() {
       </header>
       <main>
         <Card
-          img="src\assets\restaurants\commissary.jpg"
+          img={image1}
           title="Commissary"
           cuisine="American"
           cost="$$-$$$"
           link="https://www.tripadvisor.com/Restaurant_Review-g28970-d1179806-Reviews-Commissary-Washington_DC_District_of_Columbia.html"
         />
         <Card
-          img="src\assets\restaurants\reren_lamen_bar.jpg"
+          img={image2}
           title="Reren Lamen & Bar"
           cost="$$-$$$"
           cuisine="Chinese"
